@@ -1,0 +1,37 @@
+name: Task
+description: Create a new execution task
+title: " "
+labels: ["task"]
+
+body:
+  - type: input
+    id: goal_id
+    attributes:
+      label: Goal ID
+      description: Which goal does this output support?
+      placeholder: G-001
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: What will exist when this task is complete?
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition of Done
+      description: What proves this output is complete?
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt / Instructions
+      description: Execution instructions, constraints, or prompt.
+
+  - type: input
+    id: demo
+    attributes:
+      label: Demo Link
+      description: Link to the finished output, if applicable.
+      placeholder: Add when ready
