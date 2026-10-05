@@ -1,7 +1,6 @@
 name: Research
 description: Investigate a question and record an evidence-based finding
 title: "[Research] "
-labels: ["research"]
 body:
   - type: textarea
     id: question
