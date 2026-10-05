@@ -1,0 +1,17 @@
+name: Note
+description: Preserve an idea, reference, or useful information
+title: "[Note] "
+labels: ["note"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is worth keeping?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Sources
+      description: Add context, links, examples, or the original thought.
