@@ -1,7 +1,6 @@
 name: Note
 description: Preserve an idea, reference, or useful information
 title: "[Note] "
-labels: ["note"]
 body:
   - type: textarea
     id: summary
