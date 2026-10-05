@@ -1,7 +1,6 @@
 name: Task
 description: Create a new execution task
 title: "[Task] "
-labels: ["task"]
 
 body:
   - type: input
